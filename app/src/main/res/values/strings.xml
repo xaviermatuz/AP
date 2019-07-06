@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Agenda_Personal</string>
+    <string name="usuario">Usuario X</string>
+    <string name="opt">Otros Datos</string>
+    <string name="t1">Primera</string>
+    <string name="t2">Segunda</string>
+</resources>
