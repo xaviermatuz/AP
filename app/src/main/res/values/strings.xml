@@ -4,4 +4,12 @@
     <string name="opt">Otros Datos</string>
     <string name="t1">Primera</string>
     <string name="t2">Segunda</string>
+    <string name="fecha">Seleccione una fecha para visualizar datos</string>
+    <string name="guardar">Guardar</string>
+
+    <!-- Mensajes-->
+    <string name="primer_mensaje">Seleccionaste el primer menu.</string>
+    <string name="segundo_mensaje">Seleccionaste el segundo menu.</string>
+    <string name="title_activity_segundo">Segundo</string>
+    <string name="action_settings">Settings</string>
 </resources>

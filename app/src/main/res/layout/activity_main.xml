@@ -73,9 +73,10 @@
                                         android:layout_height="match_parent">
 
                                         <ImageView
+                                                android:clickable="true"
                                                 android:src="@drawable/chat"
                                                 android:layout_width="80dp"
-                                                android:layout_height="80dp"/>
+                                                android:layout_height="80dp" android:id="@+id/primer"/>
                                         
                                         <TextView
                                                 android:layout_marginTop="12dp"
@@ -107,9 +108,10 @@
                                         android:layout_height="match_parent">
 
                                         <ImageView
+                                                android:clickable="true"
                                                 android:src="@drawable/contact"
                                                 android:layout_width="80dp"
-                                                android:layout_height="80dp"/>
+                                                android:layout_height="80dp" android:id="@+id/segundo"/>
 
                                         <TextView
                                                 android:layout_marginTop="12dp"
@@ -124,6 +126,39 @@
                         </androidx.cardview.widget.CardView>
 
                 </GridLayout>
+
+                <TextView
+                        android:id="@+id/fecha"
+                        android:layout_marginTop="30dp"
+                        android:textAlignment="center"
+                        android:text="@string/fecha"
+                        android:textSize="20sp"
+                        android:textColor="#333"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/calendario"
+                        android:layout_marginTop="32dp"
+                        android:layout_height="wrap_content">
+
+                        <CalendarView
+                                android:id="@+id/calendarview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"></CalendarView>
+                </LinearLayout>
+
+                <Button
+                        android:layout_marginTop="34dp"
+                        android:layout_marginLeft="120dp"
+                        android:text="@string/guardar"
+                        android:textAlignment="center"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
 
         </LinearLayout>
 
